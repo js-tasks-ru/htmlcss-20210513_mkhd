@@ -1,0 +1,43 @@
+.page {
+  background: #f9fafc;
+}
+
+.page__box {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--white);
+  padding: 96px 0 77px;
+}
+
+.header__heading {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64px;
+  color: #212429;
+  margin: 0;  /* тут мы переписываем normalize - правильно ли это??? */
+}
+
+.main {
+  min-height: calc(100vh - 237px); 
+}
+
+.footer {
+  background-color: var(--white);
+  padding: 72px 0 96px;
+}
+
+.footer__heading {
+  font-size: 38px;
+  line-height: 48px; /* стоит это добавлять? */
+  text-align: center;
+}
+
+.footer__description {
+  max-width: 640px;
+  margin: 32px auto;
+  text-align: center;
+  line-height: 24px;
+}

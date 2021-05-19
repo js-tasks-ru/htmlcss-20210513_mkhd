@@ -1,4 +1,5 @@
 /* Стилизация кнопки */
+
 .button {
   border-radius: 8px;
   width: 189px; /* высоту и ширину задаем в пикселях? это правильно? */
@@ -41,3 +42,4 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+

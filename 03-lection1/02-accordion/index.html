@@ -7,7 +7,12 @@
   </head>
   <body>
     <details class="accordion__item">
-      <summary class="accordion__summary">Accordion item 1</summary>
+      <summary class="accordion__summary">
+        Accordion item 1
+        <svg class="icon">
+          <use xlink:href="#arrow-up"></use>
+        </svg>
+      </summary>
       <p class="accordion__hidden-text">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -15,7 +20,12 @@
       </p>
     </details>
     <details class="accordion__item">
-      <summary class="accordion__summary">Accordion item 1</summary>
+      <summary class="accordion__summary">
+        <div>Accordion item 2</div>
+        <svg class="icon">
+          <use xlink:href="#arrow-up"></use>
+        </svg>
+      </summary>
       <p class="accordion__hidden-text">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -23,12 +33,34 @@
       </p>
     </details>
     <details class="accordion__item">
-      <summary class="accordion__summary">Accordion item 1</summary>
+      <summary class="accordion__summary">
+        <div>Accordion item 1</div>
+        <svg class="icon">
+          <use xlink:href="#arrow-up"></use>
+        </svg>
+      </summary>
       <p class="accordion__hidden-text">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
       </p>
     </details>
+
+    <svg width="0" height="0" class="hidden">
+      <symbol
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 18 10"
+        id="arrow-up"
+      >
+        <path
+          d="M1 1l8 8 8-8"
+          stroke="#495057"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+      </symbol>
+    </svg>
   </body>
 </html>

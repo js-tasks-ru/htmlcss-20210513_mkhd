@@ -5,7 +5,6 @@
   border-radius: 8px;
   padding: 24px 32px;
   margin-bottom: 8px;
-  animation: open 0.2s ease-in;
 }
 
 .accordion__item:last-child {
@@ -22,9 +21,22 @@
   display: block;
   position: relative;
   outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.accordion__item > .accordion__summary::after {
+.accordion__summary .icon {
+  width: 16px;
+  height: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion__item[open] .icon {
+  transform: rotate(180deg);
+}
+
+/* .accordion__item > .accordion__summary::after {
   content: '';
   position: absolute;
   right: 0;
@@ -39,7 +51,7 @@
 
 .accordion__item[open] > .accordion__summary::after {
   transform: rotate(-135deg);
-}
+} */
 
 .accordion__summary::-webkit-details-marker {
   display: none;

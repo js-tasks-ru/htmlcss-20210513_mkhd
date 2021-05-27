@@ -1,5 +1,4 @@
 .histogram {
-  width: 354px;
   height: 185px;
   border: 1px solid #acb5bd;
   box-sizing: border-box;
@@ -20,7 +19,7 @@
 }
 
 .histogram__view-all a {
-  color: #4263eb;
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -37,7 +36,8 @@
 }
 
 .histogram__bar {
-  width: 9px;
+  min-width: 9px;
+  flex-grow: 1;
   margin-right: 1px;
-  background-color: #4263eb;
+  background-color: var(--blue);
 }

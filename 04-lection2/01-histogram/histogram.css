@@ -1,5 +1,5 @@
 .histogram {
-  height: 185px;
+  /* height: 185px; */
   border: 1px solid #acb5bd;
   box-sizing: border-box;
   border-radius: 8px;
@@ -11,11 +11,16 @@
 .histogram__header {
   display: flex;
   justify-content: space-between;
+  margin-top: 6px;
 }
 
 .histogram__title {
   color: var(--black);
   opacity: 0.8;
+}
+
+.histogram__view-all {
+  margin-left: 20px;
 }
 
 .histogram__view-all a {
@@ -26,18 +31,21 @@
 .histogram__number {
   font-size: 20px;
   color: var(--black);
-  margin-top: 6px;
+  margin-bottom: 10px;
 }
 
 .histogram__bars {
   display: flex;
+  justify-content: stretch;
   align-items: flex-end;
   flex-grow: 1;
+  max-width: 100%;
+  height: 50%;
 }
 
 .histogram__bar {
-  min-width: 9px;
-  flex-grow: 1;
+  /* min-width: 9px; */
+  flex: 1 0 auto;
   margin-right: 1px;
   background-color: var(--blue);
 }

@@ -1,14 +1,14 @@
 .header {
   background-color: var(--white);
   padding: 24px 0 77px;
-  border-bottom: 1px solid #dde2e5;
+  border-bottom: 1px solid var(--grey-2);
 }
 
 .header__heading {
   font-weight: 500;
   font-size: 50px;
   line-height: 64px;
-  color: #212429;
+  color: var(--black);
   margin-top: 40px;
 }
 

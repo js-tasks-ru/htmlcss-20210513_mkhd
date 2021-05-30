@@ -1,0 +1,8 @@
+.page__header {
+  height: 82px;
+  background: var(--white);
+  grid-area: header;
+  margin-bottom: 36px;
+  display: flex;
+  align-items: center;
+}

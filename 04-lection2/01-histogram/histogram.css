@@ -1,6 +1,6 @@
 .histogram {
   /* height: 185px; */
-  border: 1px solid #acb5bd;
+  border: 1px solid var(--grey-3);
   box-sizing: border-box;
   border-radius: 8px;
   padding: 16px 26px 24px 26px;

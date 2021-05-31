@@ -1,6 +1,5 @@
 .histogram {
-  height: 185px;
-  border: 1px solid #acb5bd;
+  border: 1px solid var(--grey-3);
   box-sizing: border-box;
   border-radius: 8px;
   padding: 16px 26px 24px 26px;
@@ -11,6 +10,7 @@
 .histogram__header {
   display: flex;
   justify-content: space-between;
+  margin-top: 6px;
 }
 
 .histogram__title {
@@ -27,13 +27,16 @@
 .histogram__number {
   font-size: 20px;
   color: var(--black);
-  margin-top: 6px;
+  margin-bottom: 10px;
 }
 
 .histogram__bars {
   display: flex;
+  justify-content: stretch;
   align-items: flex-end;
   flex-grow: 1;
+  max-width: 100%;
+  height: 80px;
 }
 
 .histogram__bar {

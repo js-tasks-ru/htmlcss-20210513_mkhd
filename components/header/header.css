@@ -9,7 +9,7 @@
   font-size: 50px;
   line-height: 64px;
   color: #212429;
-  margin-top: 40px; /* тут мы переписываем normalize - правильно ли это??? */
+  margin-top: 40px;
 }
 
 .header__container {
@@ -18,7 +18,7 @@
   align-items: center;
 }
 
-.navlink {
+.header__navlink {
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
@@ -26,6 +26,6 @@
   margin-left: 24px;
 }
 
-.navlink_active {
+.header__navlink_active {
   color: var(--black);
 }

@@ -1,0 +1,11 @@
+.page__footer {
+  height: 166px;
+  grid-area: footer;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--grey-3);
+  padding-top: 92px;
+}

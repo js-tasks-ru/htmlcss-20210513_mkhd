@@ -17,6 +17,10 @@
 
   --primary: var(--blue);
   --secondary: var(--purple);
+
+  --avatar-standart: 102px;
+  --avatar-small: 62px;
+  --avatar-large: 200px;
 }
 
 * {

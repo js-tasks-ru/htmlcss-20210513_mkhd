@@ -7,16 +7,69 @@
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/fonts/fonts.css" />
-    <link rel="stylesheet" href="./components/grid_layout/grid_layout.css" />
+    <link rel="stylesheet" href="./components/grid_layout/layout/layout.css" />
+    <link rel="stylesheet" href="./components/grid_layout/header/header.css" />
+    <link rel="stylesheet" href="./components/grid_layout/menu/menu.css" />
+    <link rel="stylesheet" href="./components/grid_layout/main/main.css" />
+    <link rel="stylesheet" href="./components/grid_layout/footer/footer.css" />
+    <link rel="stylesheet" href="./04-lection2/01-histogram/histogram.css" />
 
     <title>Grid Layout</title>
   </head>
   <body>
     <div class="page">
-      <div class="page__header"></div>
+      <div class="page__header">
+        <div class="page__box">Reusable component library</div>
+      </div>
       <div class="page__main">
-        <div class="menu"></div>
-        <div class="component"></div>
+        <div class="menu">
+          <a href="" class="menu__header">Components</a>
+          <a href="" class="menu__item">Modal</a>
+          <a href="" class="menu__item">Tooltip</a>
+          <a href="" class="menu__item">Avatar</a>
+          <a href="" class="menu__item">Calendar</a>
+          <a href="" class="menu__item menu__item_active">Histogram</a>
+          <a href="" class="menu__item">Custom form elements</a>
+          <a href="" class="menu__item menu__item_separate">Main page</a>
+        </div>
+        <div class="components">
+          <h1 class="components__header">Histogram</h1>
+          <div class="components__item">
+            <div class="histogram">
+              <div class="histogram__header">
+                <div class="histogram__title">Total orders</div>
+                <a href="" class="histogram__link">View all</a>
+              </div>
+              <div class="histogram__number">50254</div>
+              <div class="histogram__bars">
+                <div class="histogram__bar" style="height: 50px"></div>
+                <div class="histogram__bar" style="height: 35px"></div>
+                <div class="histogram__bar" style="height: 15px"></div>
+                <div class="histogram__bar" style="height: 45px"></div>
+                <div class="histogram__bar" style="height: 20px"></div>
+                <div class="histogram__bar" style="height: 10px"></div>
+                <div class="histogram__bar" style="height: 10px"></div>
+                <div class="histogram__bar" style="height: 15px"></div>
+                <div class="histogram__bar" style="height: 60px"></div>
+                <div class="histogram__bar" style="height: 30px"></div>
+                <div class="histogram__bar" style="height: 40px"></div>
+                <div class="histogram__bar" style="height: 70px"></div>
+                <div class="histogram__bar" style="height: 55px"></div>
+                <div class="histogram__bar" style="height: 50px"></div>
+                <div class="histogram__bar" style="height: 35px"></div>
+                <div class="histogram__bar" style="height: 15px"></div>
+                <div class="histogram__bar" style="height: 45px"></div>
+                <div class="histogram__bar" style="height: 20px"></div>
+                <div class="histogram__bar" style="height: 10px"></div>
+                <div class="histogram__bar" style="height: 10px"></div>
+                <div class="histogram__bar" style="height: 15px"></div>
+                <div class="histogram__bar" style="height: 60px"></div>
+                <div class="histogram__bar" style="height: 30px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
       </div>
       <div class="page__footer">Reusable component library</div>
     </div>

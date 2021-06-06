@@ -41,7 +41,7 @@
 }
 
 .histogram__bar {
-  flex: 1 0 auto;
+  flex-grow: 1;
   margin-right: 1px;
   background-color: var(--blue);
 }

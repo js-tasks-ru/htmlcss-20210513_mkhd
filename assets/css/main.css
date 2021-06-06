@@ -17,10 +17,14 @@
 
   --primary: var(--blue);
   --secondary: var(--purple);
+
+  --avatar-standart: 102px;
+  --avatar-small: 62px;
+  --avatar-large: 200px;
 }
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   box-sizing: border-box;
 }
 

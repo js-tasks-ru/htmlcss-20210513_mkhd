@@ -1,4 +1,5 @@
 .histogram {
+  width: 100%;
   border: 1px solid var(--grey-3);
   box-sizing: border-box;
   border-radius: 8px;
@@ -18,7 +19,6 @@
   opacity: 0.8;
 }
 
-
 .histogram__link {
   margin-left: 20px;
   color: var(--blue);
@@ -29,6 +29,7 @@
   font-size: 20px;
   color: var(--black);
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .histogram__bars {
@@ -38,6 +39,7 @@
   flex-grow: 1;
   max-width: 100%;
   height: 50px;
+  margin-top: 20px;
 }
 
 .histogram__bar {
